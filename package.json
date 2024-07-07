@@ -1,10 +1,11 @@
 {
   "name": "best-bootstrap-project-stater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Le meilleur Setting pour démarer un projet bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:dev": "sass --no-source-map --watch sass_files:css_files"
   },
   "author": "Azim SA",
   "license": "GPL-3.0-or-later",
